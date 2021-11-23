@@ -17,3 +17,26 @@ Through this competition, you'll gain invaluable insight into volatility and fin
 In order to make Kagglers better prepared for this competition, Optiver's data scientists have created a [**tutorial notebook**](https://www.kaggle.com/jiashenliu/introduction-to-financial-concepts-and-data) debriefing competition data and relevant financial concepts of this trading challenge. Also, Optiver's online course can tell you more about financial market and market making.
 
 For more information about exciting data science opportunities at Optiver, check out their data science landing page [here](https://hubs.li/H0R7Fjx0) or e-mail their recruiting team directly at datascience@optiver.com.
+
+
+
+EVALUATION
+
+
+Submissions are evaluated using the root mean square percentage error, defined as:
+
+RMSPE=1n∑i=1n((yi−y^i)/yi)2
+
+Where RMSPE={}root }{mean} {square} {percentage} {error}
+
+## Submission File
+
+For each `row_id` in the test set, you must predict the `target` variable. The file should contain a header and have the following format:
+
+```
+row_id,target
+0-0,0.003
+0-1,0.002
+0-2,0.001
+...
+```
